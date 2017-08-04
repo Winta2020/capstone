@@ -1,4 +1,17 @@
 body {
   font-family: 'Sedgwick Ave', cursive;
-   background-image: url(http://www.parkcamper.com/Lolo-National-Forest/anaconda-pintlers-wilderness.jpg);
+   background-image: url("http://s1.1zoom.me/big3/824/335234-svetik.jpg");
  }
+   p {
+     color: white;
+   }
+
+
+.wrapper {
+  width:70%
+  margin-left: auto;
+  margin-right: auto;
+}
+.block {
+  background-color: rgba(0, 0, 0, 0.34);
+}

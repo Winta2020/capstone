@@ -562,7 +562,10 @@ var dummyData = {
 
 $('document').ready(function(){
   console.log("DOM is now loaded.");
-  console.log(dummyData.entries);
-  for(var i= 0; i < dummyData.entries.length; i++) {
-    }
-  })
+  console.log(dummyData.entries[0].RECDATA.length);
+  for(var i= 0; i < dummyData.entries[0].RECDATA.length; i++) {
+    console.log(dummyData.entries[0].RECDATA[i]);
+    // if()
+    $('#results').append("<li>" + dummyData.entries[0].RECDATA[i].RecAreaName + "</li>")
+  }
+})
